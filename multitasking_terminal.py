@@ -1,3 +1,4 @@
+
 import os    
 import time    
     
@@ -20,7 +21,7 @@ def DrawBoard():
     print(" %c | %c | %c " % (board[4],board[5],board[6]))    
     print("___|___|___")    
     print(" %c | %c | %c " % (board[7],board[8],board[9]))    
-    print("   |   |   ")    
+    print("    |   |    ")    
    
 #This Function Checks position is empty or not    
 def CheckPosition(x):    
@@ -57,7 +58,6 @@ def CheckWin():
     else:            
         Game=Running    
     
-print("Tic-Tac-Toe Game Designed By Sourabh Somani")    
 print("Player 1 [X] --- Player 2 [O]\n")    
 print()    
 print()    
